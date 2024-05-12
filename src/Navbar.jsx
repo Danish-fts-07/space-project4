@@ -31,7 +31,7 @@ function Navbar() {
                         <NavLink className={(e) => { return e.isActive ? "red" : "" }} to="Crew">02 CREW</NavLink>
                     </li>
                     <li>
-                        <NavLink className={(e) => { return e.isActive ? "red" : "" }} to="Technology">03 TECHNOLOGY</NavLink>
+                        <NavLink className={(e) => { return e.isActive ? "red" : "" }} to="Tech">03 TECHNOLOGY</NavLink>
                     </li>
                 </ul>
                 <div className="open" onClick={() => { setActive(!Active) }}><VscThreeBars /></div>
