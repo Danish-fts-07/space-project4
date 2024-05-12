@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+nav{
+    font-size: 0.8rem;
+    font-family: "Barlow Condensed",sans-serif;
+    position: fixed;
+    top: 6vh;
+    height: 7vh;
+    color: white;
+    display:flex ;
+    align-items: center;
+    justify-content:space-between ;
+    /* background-color:rgba(255, 255, 255, 0.432) ; */
+    width: 100%
+    
+    
+    
+    
+}
+.nav-line{
+    border: 1px solid rgba(255, 255, 255, 0.286);
+    width: 25%;
+    /* margin-left: 85px; */
+    position: absolute;
+    left: 20%;
+}
+.logo{
+    margin:0vh 0vw 0vh 3vw;
+        font-family: 'Fredoka One', cursive;
+
+}
+.red{
+    border-bottom: 2px solid white;
+    height: 15vh;
+}
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+    width: 55%;
+    height:10vh;
+    background-color: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(3px);
+
+    
+    margin-right: 2px;
+    padding-right: 7%;
+    
+}
+ul li{
+    list-style: none;
+    
+}
+ul li a{
+    height: 7vh;
+    color: white;
+    text-decoration: none;
+    padding: 2.8vh;
+    
+}
+.open{
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+.close{
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+.show{
+    transform: translateX(0%);
+    transition: all 0.3s ease-in 0.5ms;
+}
+@media screen and (max-width: 1024px) {
+   ul{
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 60vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    /* background-color: rgba(0, 0, 0, 0.948); */
+    transform: translateX(100%);   }
+    
+   nav{
+    display: flex;
+    justify-content: space-between;
+   }
+   .open{
+    margin:9px 37px 0px 0px;;
+   display: block;
+   }
+   .close{
+    position: absolute;
+    top: 10px;
+    right: 37px;
+    display: block;
+   }
+   ul li a{
+    padding: 2vh 12vw;
+   }
+   .nav-line{
+    display: none;
+}
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+ul{
+    width: 100%;
+}
+  }

@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: aqua; */
+}
+.crew-section{
+    background-image: url("crewD.jpg");
+    background-size: cover;
+    height: 120vh;
+    width: 100%;
+    background-color: yellowgreen;
+} 
