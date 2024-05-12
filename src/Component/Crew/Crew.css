@@ -5,7 +5,7 @@
     /* color: aqua; */
 }
 .crew-section{
-    background-image: url("crewD.jpg");
+    background-image: url(crewD.jpg);
     background-size: cover;
     height: 120vh;
     width: 100%;
