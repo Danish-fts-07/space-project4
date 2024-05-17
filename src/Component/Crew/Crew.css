@@ -7,7 +7,74 @@
 .crew-section{
     background-image: url(crewD.jpg);
     background-size: cover;
-    height: 120vh;
+    height: 100vh;
     width: 100%;
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
+    display: flex;
+    align-items: flex-end;
+    color: aliceblue;
+    justify-content: center;
+    /* gap: 10vh; */
 } 
+.crew-all{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 10vw;
+    align-items: flex-end;
+}
+.crew-img{
+    height: 70vh;
+}
+.all-contentC{
+    display: flex;
+    flex-direction: column;
+    /* gap: 8px; */
+}
+
+.all-contentC p {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.2rem;
+    height: 20vh;
+    width: 400px;
+    padding-top: 20px;
+}
+.crew-all h3{
+    font-size: 1.5rem;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 40px;
+    
+ }
+ .all-contentC h1{
+    font-size: 3rem;
+    font-weight:100;
+ }
+ .all-contentC h4{
+    font-size: 1.8rem;
+    font-weight:50;
+ }
+ .crew-option{
+    border: 8px solid white;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+
+ }
+ .crewNav{
+    display: flex;
+    gap: 40px;
+    /* justify-content: center; */
+    width: 400px;
+ }
+ .content-nav{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    gap: 10vh;
+    justify-content: flex-start;
+padding-bottom: 80px; 
+}
