@@ -25,15 +25,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 25px;
+    gap: 40px;
     /* position: fixed;
     top: 32vh;
     right:30vw; */
 }
 .navD-option{
-    border-bottom: 2px solid white;
+    /* border-bottom: 2px solid white; */
     padding-bottom: 10px;
     cursor: pointer;
+    font-size:0.91rem;
+    font-family: "Barlow Condensed",sans-serif;
+
+}
+.navD-option:active{
+    border-bottom: 2px solid white;
+    
 
 }
 .imge-content{
@@ -46,6 +53,7 @@
    font-family: "Rajdhani", sans-serif;
    font-weight: 400;
    font-style: normal;
+   
 }
 #destination-img{
 height:52vh;
@@ -62,6 +70,7 @@ margin-bottom: 30px;}
 .all-contentD h2{
     font-size: 7rem;
     font-weight:100;
+    /* width: 300px; */
    
 }
 .all-contentD p {
@@ -69,6 +78,8 @@ margin-bottom: 30px;}
     font-weight: 300;
     font-style: normal;
     font-size: 1.2rem;
+    height: 20vh;
+    width: 350px;
 }
 .all-contentD  {
   display: flex;
@@ -93,20 +104,20 @@ font-weight: 100;
     display: flex;
     align-items: center;
     /* justify-content: space-around; */
-    gap: 12vh;
+    gap: 90px;
     height: 95px;
     margin-top: 50px;
-    width: 550px;
+    width: 370px;
 }
 .nav-content{
-    margin-top: 100px;
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: start;
     gap: 25px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1170px) {
     .destination-main {
        flex-direction: column-reverse;
        justify-content: center;
@@ -116,7 +127,43 @@ font-weight: 100;
     .destination-section {
         background-image: url("destinationT.jpg");
         background-size: cover;
-        height: 200vh;
+        height: 160vh;
         width: 100%;
     }
+    #destination-img{
+        height:45vh;
+        margin-bottom: 30px;}
+        .nav-content{
+            margin-top: 25px;
+            align-items: center;
+        }
+   }
+   @media screen and (max-width: 550px) {
+    .destination-main {
+       flex-direction: column-reverse;
+       justify-content: center;
+       align-items: center;
+       gap: 1px;
+    }
+    .destination-section {
+        background-image: url("destinationM.jpg");
+        background-size: cover;
+        height: 180vh;
+        width: 100%;
+    }
+    #destination-img{
+        height:45vh;
+        /* margin-bottom: 30px; */
+    }
+    .all-contentD h2{
+        font-size: 5rem;
+        font-weight:100;
+       
+    }
+    .destination-time{
+       
+        gap: 50px;
+       
+    }
+   
    }
