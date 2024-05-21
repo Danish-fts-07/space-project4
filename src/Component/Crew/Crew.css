@@ -23,8 +23,12 @@
     align-items: flex-end;
 }
 .crew-img{
-    height: 70vh;
+    /* height: 70vh; */
+    width: 500px;
+    aspect-ratio: 2/3vw;
+
 }
+
 .all-contentC{
     display: flex;
     flex-direction: column;
@@ -35,10 +39,12 @@
     font-family: "Rajdhani", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 1.2rem;
-    height: 20vh;
-    width: 400px;
+    font-size: 1.4rem;
+    height: 200px;
+    width: 450px;
     padding-top: 20px;
+    display: flex;
+    /* gap: 50px; */
 }
 .crew-all h3{
     font-size: 1.5rem;
@@ -68,13 +74,95 @@
     display: flex;
     gap: 40px;
     /* justify-content: center; */
-    width: 400px;
  }
  .content-nav{
     display: flex;
     flex-direction: column;
     /* justify-content: flex-end; */
-    gap: 10vh;
+    gap: 100px;
     justify-content: flex-start;
 padding-bottom: 80px; 
 }
+.contentC{
+    display: none;
+}
+.crew-content{
+    display: block;
+}
+@media screen and (max-width: 1170px) {
+ 
+    .crew-section {
+        background-image: url("crewT.jpg");
+        background-size: cover;
+        height: 130vh;
+        width: 100%;
+    }
+    .crew-all{
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+        align-items: center;
+        justify-content: center;
+    }
+    .content-nav{
+    padding-bottom: 50px; 
+    gap: 20px;
+
+
+    }
+    .crewNav{
+        justify-content: center;
+        width: 400px;
+     }
+     .crew-img{
+        /* height: 70vh; */
+        width: 500px;
+        height: 500px;
+    }
+}
+
+   @media screen and (max-width: 550px) {
+
+    .crew-section {
+        background-image: url("crewM.jpg");
+        background-size: cover;
+        height: 120vh;
+        width: 100%;
+    }
+    .crew-all{
+        gap: 1vw;
+        align-items: center;
+        justify-content: center;
+    }
+    .content-nav{
+    padding-bottom: 50px; 
+    gap: 20px;
+
+
+    }
+    .crewNav{
+        justify-content: center;
+        width: 400px;
+     }
+     .all-contentC p {
+        height: 200px;
+        width: 100%;
+        font-size: 0.9rem;
+       
+    }
+    .all-contentC h1{
+        font-size: 2rem;
+        font-weight:100;
+     }
+     .crew-img{
+        /* height: 70vh; */
+        width: 300px;
+        height: 300px;
+    }
+    .crew-all h4{
+        font-size: 1.5rem;
+        font-weight: 400;
+       
+        
+     }
+   }
