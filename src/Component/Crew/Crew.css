@@ -92,7 +92,7 @@ padding-bottom: 80px;
 @media screen and (max-width: 1170px) {
  
     .crew-section {
-        background-image: url("crewT.jpg");
+        background-image: url(crewT.jpg);
         background-size: cover;
         height: 130vh;
         width: 100%;
@@ -124,7 +124,7 @@ padding-bottom: 80px;
    @media screen and (max-width: 550px) {
 
     .crew-section {
-        background-image: url("crewM.jpg");
+        background-image: url(crewM.jpg);
         background-size: cover;
         height: 120vh;
         width: 100%;

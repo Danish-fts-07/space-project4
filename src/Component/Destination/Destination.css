@@ -125,7 +125,7 @@ font-weight: 100;
        gap: 1px;
     }
     .destination-section {
-        background-image: url("destinationT.jpg");
+        background-image: url(destinationT.jpg);
         background-size: cover;
         height: 160vh;
         width: 100%;
@@ -146,7 +146,7 @@ font-weight: 100;
        gap: 1px;
     }
     .destination-section {
-        background-image: url("destinationM.jpg");
+        background-image: url(destinationM.jpg);
         background-size: cover;
         height: 180vh;
         width: 100%;
