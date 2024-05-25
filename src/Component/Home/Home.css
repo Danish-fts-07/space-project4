@@ -7,7 +7,7 @@
 }
 
 .Section-home {
-    background-image: url(homeD.jpg);
+    background: url(homeD.jpg);
     background-size: cover;
     height: 120vh;
     width: 100%;
