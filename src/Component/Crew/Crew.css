@@ -116,9 +116,15 @@ padding-bottom: 50px;
      }
      .crew-img{
         /* height: 70vh; */
-        width: 500px;
-        height: 500px;
+        width: 400px;
+        height: 400px;
     }
+    .crew-all h3{
+        font-size: 2rem;
+        font-weight: 400;
+       
+        
+     }
 }
 
    @media screen and (max-width: 550px) {
@@ -127,26 +133,30 @@ padding-bottom: 50px;
         background-image: url(crewM.jpg);
         background-size: cover;
         height: 120vh;
-        width: 100%;
+        width: 115%;
     }
     .crew-all{
         gap: 1vw;
         align-items: center;
         justify-content: center;
+        /* width: 90%; */
     }
     .content-nav{
     padding-bottom: 50px; 
     gap: 20px;
+    align-items: center;
+    width: 100%;
 
 
     }
     .crewNav{
         justify-content: center;
         width: 400px;
+        /* align-items: center; */
      }
      .all-contentC p {
         height: 200px;
-        width: 100%;
+        width: 85%;
         font-size: 0.9rem;
        
     }
