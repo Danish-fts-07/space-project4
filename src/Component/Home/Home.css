@@ -1,5 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -33,8 +33,8 @@
     color: black;
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 300;
-margin-top: 50px;
-cursor: pointer;
+    margin-top: 50px;
+    cursor: pointer;
 }
 
 .content {
@@ -44,7 +44,7 @@ cursor: pointer;
 }
 
 .content h1 {
-    font-size: 8rem;
+    font-size: 7rem;
     font-weight: 100;
 }
 
@@ -56,58 +56,64 @@ cursor: pointer;
 }
 
 .content p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-family: sans-serif;
     font-weight: 100;
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
     /* font-weight: <weight>; */
     font-style: normal;
+    line-height: 30PX;
     /* gap: 20px; */
 
 }
+
 @media screen and (max-width: 1170px) {
     .home-content {
-       flex-direction: column;
-       justify-content: center;
-       gap: 2vh;
-       height: 168vh;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2vh;
+        height: 168vh;
     }
+
     .Section-home {
         background-image: url(homeT.jpg);
         background-size: cover;
         height: 160vh;
         width: 100%;
     }
-   }
-   
-   /* On screens that are 600px or less, set the background color to olive */
-   @media screen and (max-width: 550px) {
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 550px) {
     .Section-home {
         background-image: url(homeM.jpg);
         background-size: cover;
         height: 128vh;
         width: 100%;
     }
+
     .home-content {
         gap: 1vh;
-     }
-.content h1 {
-    font-size: 6rem;
-    font-weight: 300;
-}
+    }
 
-.content h3 {
-    font-size: 1.2rem;
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight: 300;
-    letter-spacing: 5px;
-}
-.content p {
-    font-size: 0.9rem;
-    font-family: "Barlow Condensed", sans-serif;
-    /* font-weight: 300;
+    .content h1 {
+        font-size: 6rem;
+        font-weight: 300;
+    }
+
+    .content h3 {
+        font-size: 1.2rem;
+        font-family: "Barlow Condensed", sans-serif;
+        font-weight: 300;
+        letter-spacing: 5px;
+    }
+
+    .content p {
+        font-size: 0.9rem;
+        font-family: "Barlow Condensed", sans-serif;
+        /* font-weight: 300;
     letter-spacing: 5px; */
-}
+    }
 
-   }
+}

@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     /* color: aqua; */
 }
-.crew-section{
+
+.crew-section {
     background-image: url(crewD.jpg);
     background-size: cover;
     height: 100vh;
@@ -15,21 +16,23 @@
     color: aliceblue;
     justify-content: center;
     /* gap: 10vh; */
-} 
-.crew-all{
+}
+
+.crew-all {
     display: flex;
     /* flex-direction: column; */
     gap: 10vw;
     align-items: flex-end;
 }
-.crew-img{
+
+.crew-img {
     /* height: 70vh; */
     width: 400px;
     aspect-ratio: 2/3vw;
 
 }
 
-.all-contentC{
+.all-contentC {
     display: flex;
     flex-direction: column;
     /* gap: 8px; */
@@ -46,88 +49,102 @@
     display: flex;
     /* gap: 50px; */
 }
-.crew-all h3{
+
+.crew-all h3 {
     font-size: 1.5rem;
     font-family: "Rajdhani", sans-serif;
     font-weight: 400;
     font-style: normal;
     margin-bottom: 40px;
-    
- }
- .all-contentC h1{
+
+}
+
+.all-contentC h1 {
     font-size: 3rem;
-    font-weight:100;
- }
- .all-contentC h4{
+    font-weight: 100;
+}
+
+.all-contentC h4 {
     font-size: 1.8rem;
-    font-weight:50;
- }
- .crew-option{
+    font-weight: 50;
+}
+
+.crew-option {
     border: 8px solid white;
     border-radius: 50%;
     height: 15px;
     width: 15px;
     cursor: pointer;
 
- }
- .crewNav{
+}
+
+.crewNav {
     display: flex;
     gap: 40px;
     /* justify-content: center; */
- }
- .content-nav{
+}
+
+.content-nav {
     display: flex;
     flex-direction: column;
     /* justify-content: flex-end; */
     gap: 50px;
     justify-content: flex-start;
-padding-bottom: 50px; 
+    padding-bottom: 50px;
 }
-.contentC{
+
+.contentC {
     display: none;
 }
-.crew-content{
+
+.crew-content {
     display: block;
 }
+
 @media screen and (max-width: 1170px) {
- 
+
     .crew-section {
         background-image: url(crewT.jpg);
         background-size: cover;
         height: 130vh;
         width: 100%;
     }
-    .crew-all{
+
+    .crew-all {
         display: flex;
         flex-direction: column;
         gap: 1vw;
         align-items: center;
         justify-content: center;
     }
-    .content-nav{
-    padding-bottom: 50px; 
-    gap: 20px;
+
+    .content-nav {
+        padding-bottom: 50px;
+        gap: 20px;
 
 
     }
-    .crewNav{
+
+    .crewNav {
         justify-content: center;
         width: 400px;
-     }
-     .crew-img{
+    }
+
+    .crew-img {
         /* height: 70vh; */
         width: 400px;
         height: 400px;
     }
-    .crew-all h3{
+
+    .crew-all h3 {
         font-size: 2rem;
         font-weight: 400;
-       
-        
-     }
+
+
+    }
 }
 
-   @media screen and (max-width: 550px) {
+@media screen and (max-width: 550px) {
 
     .crew-section {
         background-image: url(crewM.jpg);
@@ -135,44 +152,51 @@ padding-bottom: 50px;
         height: 120vh;
         width: 115%;
     }
-    .crew-all{
+
+    .crew-all {
         gap: 1vw;
         align-items: center;
         justify-content: center;
         /* width: 90%; */
     }
-    .content-nav{
-    padding-bottom: 50px; 
-    gap: 20px;
-    align-items: center;
-    width: 100%;
+
+    .content-nav {
+        padding-bottom: 50px;
+        gap: 20px;
+        align-items: center;
+        width: 100%;
 
 
     }
-    .crewNav{
+
+    .crewNav {
         justify-content: center;
         width: 400px;
         /* align-items: center; */
-     }
-     .all-contentC p {
+    }
+
+    .all-contentC p {
         height: 200px;
         width: 85%;
         font-size: 0.9rem;
-       
+
     }
-    .all-contentC h1{
+
+    .all-contentC h1 {
         font-size: 2rem;
-        font-weight:100;
-     }
-     .crew-img{
+        font-weight: 100;
+    }
+
+    .crew-img {
         /* height: 70vh; */
         width: 300px;
         height: 300px;
     }
-    .crew-all h4{
+
+    .crew-all h4 {
         font-size: 1.5rem;
         font-weight: 400;
-       
-        
-     }
-   }
+
+
+    }
+}

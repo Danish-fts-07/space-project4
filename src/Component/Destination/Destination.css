@@ -6,7 +6,8 @@
     box-sizing: border-box;
     color: aliceblue;
 }
-.destination-section{
+
+.destination-section {
     background-image: url(destinationD.jpg);
     background-size: cover;
     height: 120vh;
@@ -15,13 +16,15 @@
     align-items: center;
 }
 
-.contentD{
+.contentD {
     display: none;
 }
-.show-contentD{
+
+.show-contentD {
     display: block;
 }
-.destination-nav{
+
+.destination-nav {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,49 +33,58 @@
     top: 32vh;
     right:30vw; */
 }
-.navD-option{
+
+.navD-option {
     /* border-bottom: 2px solid white; */
     padding-bottom: 10px;
     cursor: pointer;
-    font-size:0.91rem;
-    font-family: "Barlow Condensed",sans-serif;
+    font-size: 0.91rem;
+    font-family: "Barlow Condensed", sans-serif;
 
 }
-.navD-option:active{
+
+.navD-option:active {
     border-bottom: 2px solid white;
-    
+
 
 }
-.imge-content{
+
+.imge-content {
     display: flex;
     flex-direction: column;
     gap: 13vh;
 }
-.imge-content h3{
-   font-size: 1.5rem;
-   font-family: "Rajdhani", sans-serif;
-   font-weight: 400;
-   font-style: normal;
-   
+
+.imge-content h3 {
+    font-size: 1.5rem;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
 }
-#destination-img{
-height:52vh;
-margin-bottom: 30px;}
-.destination-main{
+
+#destination-img {
+    height: 52vh;
+    margin-bottom: 30px;
+}
+
+.destination-main {
     display: flex;
     flex-direction: row-reverse;
     align-items: end;
     justify-content: center;
     gap: 10vw;
     width: 100%;
-    
+
 }
-.all-contentD h2{
+
+.all-contentD h2 {
     font-size: 7rem;
-    font-weight:100;
+    font-weight: 100;
     /* width: 300px; */
-   
+
 }
+
 .all-contentD p {
     font-family: "Rajdhani", sans-serif;
     font-weight: 300;
@@ -81,26 +93,31 @@ margin-bottom: 30px;}
     height: 20vh;
     width: 350px;
 }
-.all-contentD  {
-  display: flex;
-  flex-direction: column;
-  gap:25px ;
+
+.all-contentD {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
-.d1st p{
+
+.d1st p {
     font-family: "Rajdhani", sans-serif;
 
 }
-.d1st h3{
-font-size: 2rem;
-font-weight: 100;
+
+.d1st h3 {
+    font-size: 2rem;
+    font-weight: 100;
 
 }
-.d1st{
-  display: flex;
-  flex-direction: column;
-    }
-.destination-time{
-    border-top: 1px solid white ;
+
+.d1st {
+    display: flex;
+    flex-direction: column;
+}
+
+.destination-time {
+    border-top: 1px solid white;
     display: flex;
     align-items: center;
     /* justify-content: space-around; */
@@ -109,7 +126,8 @@ font-weight: 100;
     margin-top: 50px;
     width: 370px;
 }
-.nav-content{
+
+.nav-content {
     margin-top: 80px;
     display: flex;
     flex-direction: column;
@@ -117,52 +135,62 @@ font-weight: 100;
     align-items: start;
     gap: 25px;
 }
+
 @media screen and (max-width: 1170px) {
     .destination-main {
-       flex-direction: column-reverse;
-       justify-content: center;
-       align-items: center;
-       gap: 1px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 1px;
     }
+
     .destination-section {
         background-image: url(destinationT.jpg);
         background-size: cover;
         height: 160vh;
         width: 100%;
     }
-    #destination-img{
-        height:45vh;
-        margin-bottom: 30px;}
-        .nav-content{
-            margin-top: 25px;
-            align-items: center;
-        }
-   }
-   @media screen and (max-width: 550px) {
-    .destination-main {
-       justify-content: center;
-       align-items: center;
-       gap: 1px;
+
+    #destination-img {
+        height: 45vh;
+        margin-bottom: 30px;
     }
+
+    .nav-content {
+        margin-top: 25px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .destination-main {
+        justify-content: center;
+        align-items: center;
+        gap: 1px;
+    }
+
     .destination-section {
         background-image: url(destinationM.jpg);
         background-size: cover;
         height: 180vh;
         width: 100%;
     }
-    #destination-img{
-        height:45vh;
+
+    #destination-img {
+        height: 45vh;
         /* margin-bottom: 30px; */
     }
-    .all-contentD h2{
+
+    .all-contentD h2 {
         font-size: 5rem;
-        font-weight:100;
-       
+        font-weight: 100;
+
     }
-    .destination-time{
-       
+
+    .destination-time {
+
         gap: 50px;
-       
+
     }
-   
-   }
+
+}
