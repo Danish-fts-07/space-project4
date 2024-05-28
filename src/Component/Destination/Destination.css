@@ -8,7 +8,7 @@
 }
 
 .destination-section {
-    background-image: url(destinationD.jpg);
+    background-image: url(/destinationD.jpg);
     background-size: cover;
     height: 120vh;
     width: 100%;
