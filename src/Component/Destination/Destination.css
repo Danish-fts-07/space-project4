@@ -145,7 +145,7 @@
     }
 
     .destination-section {
-        background-image: url(destinationT.jpg);
+        background-image: url(/destinationT.jpg);
         background-size: cover;
         height: 160vh;
         width: 100%;
@@ -170,7 +170,7 @@
     }
 
     .destination-section {
-        background-image: url(destinationM.jpg);
+        background-image: url(/destinationM.jpg);
         background-size: cover;
         height: 180vh;
         width: 100%;

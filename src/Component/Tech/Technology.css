@@ -1,5 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,14 +7,15 @@
 }
 
 .technology-section {
-    background-image: url(technologyD.jpg);
+    background-image: url(/technologyD.jpg);
     background-size: cover;
     height: 120vh;
     width: 100%;
     background-color: aqua;
-   
+
 }
-.nav-headingT h3{
+
+.nav-headingT h3 {
     font-size: 1.5rem;
     font-family: "Rajdhani", sans-serif;
     font-weight: 400;
@@ -22,35 +23,41 @@
     display: flex;
     letter-spacing: 4px;
 }
-.tech-allT{
+
+.tech-allT {
     display: flex;
     align-items: center;
     height: 118vh;
     justify-content: flex-end;
     gap: 10vw;
 }
-#imgT{
+
+#imgT {
     height: 58vh;
 }
-.nav-contentT{
+
+.nav-contentT {
     display: flex;
     gap: 60px;
     flex-direction: row;
-    
+
 }
-.nav-headingT{
+
+.nav-headingT {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     height: 83vh;
     gap: 50px;
 }
-.tech-navT{
+
+.tech-navT {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-.nav-optionT{
+
+.nav-optionT {
     height: 62px;
     width: 62px;
     background-color: aliceblue;
@@ -61,30 +68,36 @@
     align-items: center;
     justify-content: center;
 }
-.all-contentT{
+
+.all-contentT {
     display: flex;
     flex-direction: column;
 }
-.contentT{
+
+.contentT {
     display: none;
 }
-.show-contentT{
+
+.show-contentT {
     display: block;
 }
-.all-contentT h4{
+
+.all-contentT h4 {
     font-size: 0.9rem;
     font-family: "Rajdhani", sans-serif;
     font-weight: 400;
-    font-style: normal;  
+    font-style: normal;
     letter-spacing: 1px;
 }
-.all-contentT h1{
+
+.all-contentT h1 {
     font-size: 3.5rem;
-    font-weight:500;
+    font-weight: 500;
     width: 500px;
 
 }
-.all-contentT P{
+
+.all-contentT P {
     font-family: "Rajdhani", sans-serif;
     font-weight: 300;
     font-style: normal;
