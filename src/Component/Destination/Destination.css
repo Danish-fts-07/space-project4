@@ -64,7 +64,8 @@
 }
 
 #destination-img {
-    height: 52vh;
+    height: auto;
+    width: 100%;
     margin-bottom: 30px;
 }
 
@@ -147,7 +148,7 @@
     .destination-section {
         background-image: url(/destinationT.jpg);
         background-size: cover;
-        height: 160vh;
+        height: 180vh;
         width: 100%;
     }
 

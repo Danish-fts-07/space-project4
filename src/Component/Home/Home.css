@@ -73,13 +73,13 @@
         flex-direction: column;
         justify-content: center;
         gap: 2vh;
-        height: 168vh;
+        height: 150vh;
     }
 
     .Section-home {
         background-image: url(/homeT.jpg);
         background-size: cover;
-        height: 160vh;
+        height: 150vh;
         width: 100%;
     }
 }
